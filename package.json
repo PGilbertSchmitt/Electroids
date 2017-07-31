@@ -1,0 +1,21 @@
+{
+  "name": "electroids",
+  "version": "1.0.0",
+  "description": "Asteroids game over Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "webpack": "webpack",
+    "watch": "webpack -w"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "1.6.11",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.2",
+    "webpack": "^3.4.1"
+  }
+}
