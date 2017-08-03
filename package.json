@@ -7,7 +7,7 @@
     "start": "electron .",
     "webpack": "webpack",
     "watch": "webpack -w",
-    "test": "jasmine"
+    "test": "jasmine-ts"
   },
   "author": "",
   "license": "MIT",
@@ -17,8 +17,11 @@
     "typescript": "^2.4.2"
   },
   "devDependencies": {
+    "@types/jasmine-expect": "^3.6.1",
     "jasmine": "^2.7.0",
+    "jasmine-expect": "^3.7.1",
     "jasmine-spec-reporter": "^4.1.1",
+    "jasmine-ts": "^0.2.0",
     "ts-loader": "^2.3.2",
     "webpack": "^3.4.1"
   }
