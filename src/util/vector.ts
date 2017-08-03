@@ -41,3 +41,5 @@ class Vector {
         return new Vector(this.x * size, this.y * size);
     }
 }
+
+module.exports = Vector;
