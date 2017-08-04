@@ -7,22 +7,21 @@
     "start": "electron .",
     "webpack": "webpack",
     "watch": "webpack -w",
-    "test": "jasmine-ts"
+    "test": "mocha -r ts-node/register spec/vector-spec.ts"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@types/jasmine": "^2.5.53",
     "electron": "1.6.11",
     "typescript": "^2.4.2"
   },
   "devDependencies": {
-    "@types/jasmine-expect": "^3.6.1",
-    "jasmine": "^2.7.0",
-    "jasmine-expect": "^3.7.1",
-    "jasmine-spec-reporter": "^4.1.1",
-    "jasmine-ts": "^0.2.0",
+    "@types/chai": "^4.0.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
     "ts-loader": "^2.3.2",
+    "ts-node": "^3.3.0",
     "webpack": "^3.4.1"
   }
 }
